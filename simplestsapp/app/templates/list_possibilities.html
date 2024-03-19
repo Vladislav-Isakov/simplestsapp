@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <body>
+        <h1>Вы успешно авторизовались, выберите действие:</h1>
+        <p><a href="{{url_for('extlist')}}" class="button">Получить список добавочных номеров клиента</a></p>
+        <p><a href="{{url_for('randomext')}}" class="button">Получить случайный добавочный номер клиента</a></p>
+        <p><a href="{{ url_for('logout') }}">Разлогиниться</a></p>
+    </body>
+</html>
